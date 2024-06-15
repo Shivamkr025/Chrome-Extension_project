@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0",
+    "description": "A simple Pomodoro timer extension",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "360": "logo.png"
+        }
+    },
+    "permissions": [
+        "storage"
+    ]
+}
