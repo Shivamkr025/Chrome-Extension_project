@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h2>Daily Growth Checklist</h2>
+        <div>
+            <label for="titleInput">Day:</label>
+            <input type="text" id="titleInput" placeholder="Enter Day...">
+        </div>
+
+
+        <label for="growthInput">Growth Task:</label>
+        <textarea id="growthInput" placeholder="Enter daily growth tasks..."></textarea>
+
+        <div class="submit-btn">
+            <button id="storeButton">Store Daily Growth</button>
+            <a href="./viewDetails.html"><button id="viewButton">Check list</button></a>
+
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>
